@@ -1,0 +1,32 @@
+{
+  "name": "options-backtesting",
+  "version": "1.0.0",
+  "description": "A backtesting project for options trading strategies, specifically the butterfly strategy using Deribit data.",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "ts-node": "^10.4.0",
+    "nodemon": "^2.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/options-backtesting.git"
+  },
+  "keywords": [
+    "options",
+    "backtesting",
+    "trading",
+    "butterfly strategy",
+    "deribit"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
